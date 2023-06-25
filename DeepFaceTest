@@ -2,7 +2,7 @@ import cv2
 from deepface import DeepFace
 import numpy as np
 
-#How to install the APIs libraries from for facial recognition
+#How to install the APIs libraries for facial recognition
 #pip install opencv-python
 #pip install deepface
 #pip install numpy
