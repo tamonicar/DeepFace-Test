@@ -15,7 +15,7 @@ face_cascade = cv2.CascadeClassifier(
 #This code is using a live feed from webcam to detect the faces and emotions
 cap = cv2.VideoCapture(0)
 
-#THis set will show real time emotions from the webcam on a loop
+#This set will show real time emotions from the webcam on a loop
 while True:
     _, frame = cap.read()
     analyze = DeepFace.analyze(frame, actions=['emotion'])
